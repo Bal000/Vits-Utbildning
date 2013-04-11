@@ -89,7 +89,7 @@ first child of the left and right table columns */
 .page
 {
     width: 960px;
-    background-image: Url(../IMG/Background1.jpg)
+    background-image: Url(../IMG/Background2.jpg);
     background-color: #fff;
     margin: 20px auto 0px auto;
     border: 1px solid #496077;
@@ -100,7 +100,7 @@ first child of the left and right table columns */
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #4b6c9e;
+    background: #00164C;
     width: 100%;
 }
 
@@ -135,11 +135,11 @@ first child of the left and right table columns */
     margin: 0px auto;
     text-align: center;
     line-height: normal;
-    width: 960px;
+    width: 956px;
     height: 30px;
-    background-color: yellow;
-    border-top: 4px none white;
-    color: White;
+    background-color: white;
+    border: 2px none black;
+    color: black;
 }
 
 
@@ -148,13 +148,14 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:#3a4f63;
-    width:100%;
+    background-color:white;
+    width:956px;
+    border: 2px outset black;
 }
 
 div.menu
 {
-    padding: 4px 0px 4px 8px;
+    padding: 0px 0px 4px 8px;
 }
 
 div.menu ul
@@ -167,9 +168,9 @@ div.menu ul
 
 div.menu ul li a, div.menu ul li a:visited
 {
-    background-color: #465c71;
+    background-color: white;
     border: 1px #4e667d solid;
-    color: #dde4ec;
+    color: black;
     display: block;
     line-height: 1.35em;
     padding: 4px 20px;
@@ -261,8 +262,9 @@ div.accountInfo
     font-size: 1.1em;
     display: block;
     text-align: right;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     color: White;
+    background-color: #00164C;
 }
 
 .loginDisplay a:link
@@ -302,7 +304,7 @@ div.accountInfo
 .leftDiv
 {
     float: left;
-    width: 200px;
+    width: 270px;
     height: 400px;
     
 }
@@ -310,18 +312,23 @@ div.accountInfo
 .centerDiv
 {
     background-color: white;
-    border: 4px outset purple;
-    width: 40%;   
+    border: 4px outset black;
+    width: 350px;   
     float: left;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 30px;
+}
+
+.centerDiv H2
+{
+    text-align:center;    
 }
 
 .rightDiv
 {
     float: left;
-    width: 200px;
+    width: 270px;
     height: 400px;
 }
 
@@ -329,7 +336,26 @@ div.accountInfo
 {
     margin-left: 130px;
     margin-top: 20px;
+    margin-bottom: 20px;
     font: normal 12px arial, sans-serig;
     width: 100px;
     height: 50px;
+}
+
+/*------ Rapport-sidan --------*/
+
+.mainLabel
+{
+    font-weight: bold;  
+}
+
+#mainDiv
+{
+    background-color: white;
+    border: 4px outset black;
+    width: 870px;   
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
 }

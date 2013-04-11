@@ -68,6 +68,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="Contentpages\Rapport.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -123,10 +124,16 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="Contentpages\Rapport.aspx.cs">
+      <DependentUpon>Rapport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contentpages\Rapport.aspx.designer.cs">
+      <DependentUpon>Rapport.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Contentpages\" />
     <Folder Include="IMG\" />
   </ItemGroup>
   <ItemGroup>

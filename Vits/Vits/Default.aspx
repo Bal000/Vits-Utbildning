@@ -14,8 +14,8 @@
         Var god logga in för att rapportera in resor,
         ansöka om reseförskott etc.
     </p>
-
-        <asp:Button ID="btnLogin" runat="server" CssClass="btnLogin" Text="Logga in" />
+        <asp:Button ID="btnLogin" runat="server" CssClass="btnLogin" Text="Logga in" 
+           onclick="btnLogin_Click" />
    </div>
    <div class="rightDiv">
    </div>
